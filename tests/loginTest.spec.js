@@ -37,7 +37,7 @@ test('Login → Nodal Officer → Coordinator → Email → Logout', async ({ pa
 
   //coordinator
   await coordinator.open();
-  await coordinator.addCoordinator('Adithyy', 'adithyy@gmail.com', '8190850784', 'Developer');
+  await coordinator.addCoordinator('Adityy', 'adityy@gmail.com', '8390859784', 'Developer');
   await coordinator.editCoordinator(1);
   await coordinator.deleteCoordinator(1);
 
